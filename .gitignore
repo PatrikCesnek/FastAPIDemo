@@ -1,0 +1,79 @@
+# --------------------
+# Swift / Xcode
+# --------------------
+
+# Xcode build artifacts
+build/
+DerivedData/
+*.xcworkspace
+*.xcuserstate
+
+# Swift Package Manager
+/.build/
+Packages/
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Xcode temp files
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# --------------------
+# Python
+# --------------------
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# IDEs
+.vscode/
+.idea/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# --------------------
+# Optional
+# --------------------
+# Temporary files
+*.swp
+*.swo
