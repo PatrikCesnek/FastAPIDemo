@@ -11,7 +11,7 @@ import SwiftUI
 struct FastAPIDemoApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            PostListView()
         }
     }
 }
